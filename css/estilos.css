@@ -1,0 +1,48 @@
+:root {
+    --pink : rgb(11, 134, 124);
+    --colorTexto : black;
+    --hover: rgb(6, 88, 136);
+    --green: rgb(178, 125, 125);
+    --colir:rgb(135, 13, 216);
+    --col: rgb(0, 41, 128);
+    --rose: rgb(255, 255, 255);
+}
+body{
+    
+    font-size: 25px;
+    font-family: Gill Sans;
+    background-color: var(--rose);
+    
+}
+p{
+    
+        text-align: justify;
+
+}
+nav a{
+
+
+        text-decoration: none;
+        font-size: 19px;
+        color:var(--colorTexto);
+ }
+ .MADRE{
+    padding: 8px 7px;
+    background-color: var(--green);
+    color: var(--colorTexto);
+   
+}
+.MADRE:hover{
+    background-color: var(--pink);
+}
+
+.iniciarsesion{
+    padding: 8px 7px;
+    background-color: var(--green);
+    color: var(--colorTexto);
+}
+.iniciarsesion:hover{
+    background-color: var(--col);
+    }
+
+    
